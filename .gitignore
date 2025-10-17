@@ -1,0 +1,19 @@
+# Temporary test files
+*.json
+
+# Test directories
+nvme_benchmark_*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
