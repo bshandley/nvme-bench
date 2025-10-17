@@ -45,13 +45,13 @@ sudo apt install fio jq
 
 ### Download Script
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/nvme-bench/main/nvme_benchmark.sh
+wget https://raw.githubusercontent.com/bshandley/nvme-bench/main/nvme_benchmark.sh
 chmod +x nvme_benchmark.sh
 ```
 
 Or clone the entire repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/nvme-bench.git
+git clone https://github.com/bshandley/nvme-bench.git
 cd nvme-bench
 chmod +x nvme_benchmark.sh
 ```
@@ -170,14 +170,11 @@ If you encounter issues:
 1. Check that `fio` and `jq` are installed
 2. Ensure you're running with sudo
 3. Verify the drive is actually NVMe (`ls /dev/nvme*`)
-4. Open an issue on GitHub: `github.com/YOUR_USERNAME/nvme-bench/issues`
+4. Open an issue on GitHub: `github.com/bshandley/nvme-bench/issues`
 
 ## ⭐ Star This Repo
 
 If you find this tool useful, please consider giving it a star on GitHub!
 
-**Repository:** `github.com/YOUR_USERNAME/nvme-bench`
+**Repository:** `github.com/bshandley/nvme-bench`
 
----
-
-Made with ❤️ for the Linux community
